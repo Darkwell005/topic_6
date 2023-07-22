@@ -16,3 +16,6 @@ if num_2 > num_1 and num_3:
 
 if num_3 > num_2 and num_1:
     print('Наибольшее число:', num_3)
+
+
+# Псевдокод: https://t.me/shox_py_discuss/22/48
