@@ -8,13 +8,13 @@ num_3 = int(input('Введите третье целое число: '))
 # 1. Должно быть так: num_1 больше num_2 и num_1 больше num_3
 # 2. Можно улучшить, замечание такое же, как и в задание №2 (пункт 1).
 
-if num_1 > num_2 and num_3:
+if num_1 > num_2 and num_1 > num_3:
     print('Наибольшее число:', num_1)
 
-if num_2 > num_1 and num_3:
+elif num_2 > num_1 and num_2 > num_3:
     print('Наибольшее число:', num_2)
 
-if num_3 > num_2 and num_1:
+else:
     print('Наибольшее число:', num_3)
 
 
