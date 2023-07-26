@@ -7,7 +7,14 @@ ALPHABETS = {
 
 print("Добро пожаловать в программу \"Буква-Детектив\"!", end="\n\n")
 type_alphabets = ["Cyrillic", "Latin"]
-user_input = int(input('Выберите алфавит:'))
 
+"""
+Выберите алфавит:
+1. Латинский
+2. Кириллица
+"""
 
+alphabet_num = int(input('Введите номер алфавита: '))
+
+# letter = input('')
 
