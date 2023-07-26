@@ -12,3 +12,4 @@ elif num_3 > num_2 and num_3 > num_1:
     print(text, num_3)
 else:
     print('Все числа равны')
+
