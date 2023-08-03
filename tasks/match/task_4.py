@@ -10,3 +10,4 @@ match all_num:
         print(text, num_2)
     case _:
         print(text, num_3)
+
