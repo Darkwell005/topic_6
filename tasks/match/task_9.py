@@ -3,8 +3,9 @@ fractional_num: float = float(input('Введите дробное число: '
 line: str = input('Введите строку: ')
 
 mixed: list = [whole_num, fractional_num, line]
-match mixed:
-    case _ if any(mixed):
+
+match any(mixed):
+    case True:
         print('Да')
     case _:
         print('Нет')

@@ -1,6 +1,7 @@
 num_1: float = float(input('Введите первое число: '))
 num_2: float = float(input('Введите второе число: '))
 operation: str = input('Введите магическую операцию: ')
+
 operations: list = ['Призыв',
                     'Трансформация',
                     'Объединение',
@@ -18,5 +19,14 @@ match num_1 and num_2:
             print('Ошибка: Второе число равно нулю!')
         elif num_2 != 0:
             print('Исчезновение числа:', num_1 / num_2)
+    case _:
+        print('Ошибка: Некорректная операция')
+
+# -----
+
+match operation in operations:
+    case True:
+        pass
+        # TODO: Проблема: Как реализловать операции?
     case _:
         print('Ошибка: Некорректная операция')
