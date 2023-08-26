@@ -2,7 +2,7 @@ num_1: float = float(input('Введите первое число: '))
 num_2: float = float(input('Введите второе число: '))
 operation: str = input('Введите магическую операцию: ')
 
-operations: list = ['Призыв',
+operations: list = [ 'Призыв',
                     'Трансформация',
                     'Объединение',
                     'Исчезновение']
